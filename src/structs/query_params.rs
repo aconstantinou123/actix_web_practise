@@ -1,6 +1,6 @@
 use serde::Deserialize;
 
-#[derive(Deserialize, Clone)]
+#[derive(Deserialize)]
 pub struct QueryParams {
     pub name: Option<String>,
     pub age: Option<i32>,
