@@ -1,0 +1,9 @@
+[package]
+name = "hello-actix"
+version = "0.1.0"
+authors = ["Alex Constantinou <a_constantinou@hotmail.co.uk>"]
+edition = "2018"
+
+[dependencies]
+actix-web = "1.0"
+listenfd = "0.3"
